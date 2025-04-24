@@ -20,8 +20,8 @@ class Pokemon {
     let name: String
     let asset: String
     
-    let previous: Pokemon!
-    let next: Pokemon!
+    let previous: Pokemon?
+    let next: Pokemon?
     
     var stats: Stats
     
